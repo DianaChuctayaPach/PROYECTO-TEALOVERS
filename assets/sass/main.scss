@@ -1,9 +1,15 @@
 @import 'parciales/header.scss';
+$rosa:#DD5585;
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+$font-letra:'Raleway', sans-serif;
 body{
     padding: 0;
     margin: 0;
 }
-*{outline: 1px solid red;}
+*{
+    // outline: 1px solid red;
+    font-family: $font-letra;}
 header{
     background-image: url(../img/fondo-bienvenida.jpg);
     height: 100vh;
@@ -43,19 +49,153 @@ header{
     height: 80vh;
     background-image: url(../img/fondo-about.jpg);
     background-size: 100%;
-    #texto{
-        color: white;
-        margin-left: 30%;
-        margin-top: 10%;
+    #texto{color: white;
+        margin-left: 50%;
+        margin-top: 20%;
+        
         span{
             font-size: 60px;
             font-weight: bold;
         }
         p{
-            // font-size: 40px;
+            font-size: 17px;
         }
     }
 }
 #seccion4{
-    height: 20vh;
+    height: 47vh;
+    .contenedor{
+        margin-left: 150px;
+    }
+    .caja{ 
+        padding: 5px;
+        #titulosec4{
+            color: $rosa;
+            font-weight: bold;
+        }
+        #textosec4{
+            padding: 15px;
+        }
+    }
+}
+#container{
+ padding: 0;
+ margin: 0;
+}
+#seccion5{
+    height: 90vh;
+    img{
+        width: 100%;
+    }
+    img:hover{
+      opacity: 2;
+    }
+    #texto{
+        position: absolute;
+        font-size: 20px;
+        bottom:50%;
+        left: 10%;
+        width: 60%;
+        color:#fff;
+        font-weight: bold;
+    }
+    #texto2{
+        position: absolute;
+        font-size: 17px;
+        bottom:30%;
+        left: 10%;
+        // width: 60%;
+        color:#fff;
+        font-weight: bold;
+    }
+    #texto6{
+        position: absolute;
+        font-size: 20px;
+        bottom:20%;
+        left: 10%;
+        // width: 60%;
+        color:#fff;
+        font-weight: bold;
+    }
+}
+ 
+#seccion6{
+    background-image: url(../img/disfruta.jpg);background-position:  bottom;
+    height: 85vh;
+    #texto{
+        font-size: 80px;
+        font-weight: bold;
+        color: white;
+        margin: 15% 0 0 30%;
+    }
+}
+$altura:80vh;
+#seccion7{
+    height: $altura;
+    #div-color{
+        background-color: #E2C36D;
+        height: $altura;
+        img{ margin-top: 50px;}
+    }
+
+}
+#seccion8{
+    height: $altura;
+    #div-color{
+        background-color:#59C22F;
+        height: $altura;
+        img{margin-top: 50px;}
+    }
+    
+}
+#seccion9{
+    height: $altura;
+    #div-color{
+        background-color: #FF95A9;
+        height:$altura;
+        img{margin-top: 50px;}
+    }
+}
+#seccion10{
+    background-image: url(../img/parallax-4.jpg);
+    background-position:center top;
+    height: 68vh;
+    #texto{
+        color: white;
+        font-size: 70px;
+        font-weight: bold;
+        margin-top: 200px;
+    }
+    
+}
+#carrusel{
+    height: 90vh;
+    img{
+        height: 90vh;
+        width: 100%;
+    }
+    #flecha{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+    }
+}
+#producto{
+    height: 90vh;
+    img{ height: 80vh; top: 10px; margin: 30px;}
+    hr{
+        background: black; color: black;height: 3px; width: 40px;margin-left: -5px;
+    }
+}
+#footer{
+    background-color: #262626;
+    font-size: 17px;
+    padding: 30px;
+    color: #666565;
+    img{
+        width: 80px;
+        height: 70px;
+        margin-top: -10px;
+        position: absolute;
+    }
 }

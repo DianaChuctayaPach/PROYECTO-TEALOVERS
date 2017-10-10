@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway");
 #nav-negro {
-  height: 60px;
+  height: 10vh;
   background: black;
   position: fixed;
   z-index: 1000;
@@ -174,7 +176,7 @@ body {
   margin: 0; }
 
 * {
-  outline: 1px solid red; }
+  font-family: "Raleway", sans-serif; }
 
 header {
   background-image: url(../img/fondo-bienvenida.jpg);
@@ -211,13 +213,135 @@ header {
   background-size: 100%; }
   #seccion3 #texto {
     color: white;
-    margin-left: 30%;
-    margin-top: 10%; }
+    margin-left: 50%;
+    margin-top: 20%; }
     #seccion3 #texto span {
       font-size: 60px;
       font-weight: bold; }
+    #seccion3 #texto p {
+      font-size: 17px; }
 
 #seccion4 {
-  height: 20vh; }
+  height: 47vh; }
+  #seccion4 .contenedor {
+    margin-left: 150px; }
+  #seccion4 .caja {
+    padding: 5px; }
+    #seccion4 .caja #titulosec4 {
+      color: #DD5585;
+      font-weight: bold; }
+    #seccion4 .caja #textosec4 {
+      padding: 15px; }
+
+#container {
+  padding: 0;
+  margin: 0; }
+
+#seccion5 {
+  height: 90vh; }
+  #seccion5 img {
+    width: 100%; }
+  #seccion5 img:hover {
+    opacity: 2; }
+  #seccion5 #texto {
+    position: absolute;
+    font-size: 20px;
+    bottom: 50%;
+    left: 10%;
+    width: 60%;
+    color: #fff;
+    font-weight: bold; }
+  #seccion5 #texto2 {
+    position: absolute;
+    font-size: 17px;
+    bottom: 30%;
+    left: 10%;
+    color: #fff;
+    font-weight: bold; }
+  #seccion5 #texto6 {
+    position: absolute;
+    font-size: 20px;
+    bottom: 20%;
+    left: 10%;
+    color: #fff;
+    font-weight: bold; }
+
+#seccion6 {
+  background-image: url(../img/disfruta.jpg);
+  background-position: bottom;
+  height: 85vh; }
+  #seccion6 #texto {
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    margin: 15% 0 0 30%; }
+
+#seccion7 {
+  height: 80vh; }
+  #seccion7 #div-color {
+    background-color: #E2C36D;
+    height: 80vh; }
+    #seccion7 #div-color img {
+      margin-top: 50px; }
+
+#seccion8 {
+  height: 80vh; }
+  #seccion8 #div-color {
+    background-color: #59C22F;
+    height: 80vh; }
+    #seccion8 #div-color img {
+      margin-top: 50px; }
+
+#seccion9 {
+  height: 80vh; }
+  #seccion9 #div-color {
+    background-color: #FF95A9;
+    height: 80vh; }
+    #seccion9 #div-color img {
+      margin-top: 50px; }
+
+#seccion10 {
+  background-image: url(../img/parallax-4.jpg);
+  background-position: center top;
+  height: 68vh; }
+  #seccion10 #texto {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 200px; }
+
+#carrusel {
+  height: 90vh; }
+  #carrusel img {
+    height: 90vh;
+    width: 100%; }
+  #carrusel #flecha {
+    font-size: 100px;
+    font-weight: bold;
+    color: white; }
+
+#producto {
+  height: 90vh; }
+  #producto img {
+    height: 80vh;
+    top: 10px;
+    margin: 30px; }
+  #producto hr {
+    background: black;
+    color: black;
+    height: 3px;
+    width: 40px;
+    margin-left: -5px; }
+
+#footer {
+  background-color: #262626;
+  font-size: 17px;
+  padding: 30px;
+  color: #666565; }
+  #footer img {
+    width: 80px;
+    height: 70px;
+    margin-top: -10px;
+    position: absolute; }
 
 /*# sourceMappingURL=main.css.map */
