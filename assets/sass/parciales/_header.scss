@@ -156,8 +156,14 @@ nav ul li a{
     
 }
 
+nav ul li a:focus{
+	color: #af9520;
+    // background-color: white;
+    text-decoration: none;
+    list-style: none;
+}
 nav ul li a:hover{
-	color: #288840;
+	color: #af9520;
     // background-color: white;
     text-decoration: none;
     list-style: none;

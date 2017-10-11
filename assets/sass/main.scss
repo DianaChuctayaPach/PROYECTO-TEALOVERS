@@ -1,4 +1,5 @@
 @import 'parciales/header.scss';
+@import 'parciales/medias.scss';
 $rosa:#DD5585;
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
@@ -8,21 +9,20 @@ body{
     margin: 0;
 }
 *{
-    // outline: 1px solid red;
+    outline: 1px solid red;
     font-family: $font-letra;}
 header{
     background-image: url(../img/fondo-bienvenida.jpg);
     height: 100vh;
+    background-size: cover; background-position: center;
     #bienvenida{
         margin-top: 10%;
-        margin-left: 25%;
-        img{
-            width: 100%;
-            height: 300px;
-        }
+        margin-left: 23%;
+        // height:30em;
+        img{width: 100%;}
     }
     #sinbolos{
-        margin-left: 45%;margin-top:100px;
+        margin-left: 45%;margin-top:80px;
         .circulo{
         border-radius:20px;
         color: white;
@@ -35,23 +35,22 @@ header{
         font-size: 25px;
         animation-play-state: running;
     }
-    }
-    
+    }   
 }
-#seccion2{
+#div-verde{
+    height: 10vh; background-color: #59C22F;
+}
+iframe{
+    width: 100%;
     height: 100vh;
-    iframe{
-        width: 100%;
-        height: 100vh;
     }
-}
 #seccion3{
-    height: 80vh;
+    height: 90vh;
     background-image: url(../img/fondo-about.jpg);
-    background-size: 100%;
+    background-size: cover;margin-top:-5px;
     #texto{color: white;
         margin-left: 50%;
-        margin-top: 20%;
+        margin-top: 30%;
         
         span{
             font-size: 60px;
@@ -79,16 +78,13 @@ header{
     }
 }
 #container{
- padding: 0;
+ padding:0;
  margin: 0;
 }
 #seccion5{
-    height: 90vh;
+    // height: 90vh;
     img{
         width: 100%;
-    }
-    img:hover{
-      opacity: 2;
     }
     #texto{
         position: absolute;
@@ -118,12 +114,15 @@ header{
         font-weight: bold;
     }
 }
- 
+ .espacio{
+     height: 5vh;
+ }
 #seccion6{
     background-image: url(../img/disfruta.jpg);background-position:  bottom;
     height: 85vh;
+    background-size:cover;
     #texto{
-        font-size: 80px;
+        font-size: 8vw;
         font-weight: bold;
         color: white;
         margin: 15% 0 0 30%;
@@ -181,7 +180,7 @@ $altura:80vh;
     }
 }
 #producto{
-    height: 90vh;
+    // height: 90vh;
     img{ height: 80vh; top: 10px; margin: 30px;}
     hr{
         background: black; 
@@ -201,5 +200,25 @@ $altura:80vh;
         height: 70px;
         margin-top: -10px;
         position: absolute;
+    }
+}
+@media (min-width:100px) and (max-width:1030px){
+    header{
+        height:80vh;
+        #bienvenida{
+            margin-top: 10%;
+        }
+    }
+    #seccion3{
+        background-size: cover; background-position: center;
+        #texto{
+            margin-left: 10%;
+            margin-top: 20%;
+        }
+    }
+    #seccion4{
+        .contenedor{
+            margin-left: 0;
+        }
     }
 }
