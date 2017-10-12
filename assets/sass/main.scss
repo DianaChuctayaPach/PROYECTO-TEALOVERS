@@ -4,12 +4,10 @@ $rosa:#DD5585;
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
 $font-letra:'Raleway', sans-serif;
-body{
-    padding: 0;
-    margin: 0;
+body{padding: 0;margin: 0;
 }
 *{
-    // outline: 1px solid red;
+    outline: 1px solid red;
     font-family: $font-letra;}
 header{
     background-image: url(../img/fondo-bienvenida.jpg);
@@ -242,7 +240,7 @@ $padding:10.5vh;
     #seccion6{
         height: 75vh;
         #texto{
-            margin-top: 50%;
+            margin-top: 45%;
             font-size: 40px;
         }
     }

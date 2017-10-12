@@ -176,18 +176,12 @@ nav.header-in {
 .overflow-hidden {
   overflow: hidden; }
 
-@media (min-width: 100px) and (max-width: 1200px) {
-  header {
-    height: 80vh; }
-
-  #seccion3 #texto {
-    margin-left: 10%;
-    margin-top: 20%; } }
 body {
   padding: 0;
   margin: 0; }
 
 * {
+  outline: 1px solid red;
   font-family: "Raleway", sans-serif; }
 
 header {
@@ -392,7 +386,7 @@ iframe {
   #seccion6 {
     height: 75vh; }
     #seccion6 #texto {
-      margin-top: 50%;
+      margin-top: 45%;
       font-size: 40px; }
 
   #producto #lis {
