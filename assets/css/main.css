@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway");
 #nav-negro {
-  height: 10vh;
+  height: 5vh;
   background: black;
   position: fixed;
   z-index: 1000;
@@ -170,8 +170,8 @@ nav.header-in {
   background-color: #fff; }
 
 .logo {
-  margin-left: 100px;
-  margin-top: 70px; }
+  margin-left: 40px;
+  margin-top: 40px; }
 
 .overflow-hidden {
   overflow: hidden; }
@@ -285,36 +285,49 @@ iframe {
   background-image: url(../img/disfruta.jpg);
   background-position: bottom;
   height: 85vh;
-  background-size: cover; }
+  background-size: cover;
+  margin-top: -2px; }
   #seccion6 #texto {
-    font-size: 8vw;
+    font-size: 6vw;
     font-weight: bold;
     color: white;
     margin: 15% 0 0 30%; }
 
 #seccion7 {
-  height: 80vh; }
+  height: 91vh;
+  font-size: 20px; }
   #seccion7 #div-color {
     background-color: #E2C36D;
-    height: 80vh; }
+    padding: 10.5vh; }
     #seccion7 #div-color img {
       margin-top: 50px; }
+  #seccion7 #div-crema {
+    height: 10vh;
+    background-color: #E2C36D; }
 
 #seccion8 {
-  height: 80vh; }
+  height: 91vh;
+  font-size: 20px; }
   #seccion8 #div-color {
     background-color: #59C22F;
-    height: 80vh; }
+    padding: 10.5vh; }
     #seccion8 #div-color img {
       margin-top: 50px; }
+  #seccion8 #div-verde {
+    height: 10vh;
+    background-color: #59c22f; }
 
 #seccion9 {
-  height: 80vh; }
+  font-size: 20px;
+  height: 91vh; }
   #seccion9 #div-color {
-    background-color: #FF95A9;
-    height: 80vh; }
+    background-color: #c76287;
+    padding: 10.5vh; }
     #seccion9 #div-color img {
       margin-top: 50px; }
+  #seccion9 #div-rosa {
+    height: 10vh;
+    background-color: #c76287; }
 
 #seccion10 {
   background-image: url(../img/parallax-4.jpg);
@@ -339,7 +352,7 @@ iframe {
 #producto img {
   height: 80vh;
   top: 10px;
-  margin: 30px; }
+  width: 100%; }
 #producto hr {
   background: black;
   color: black;
@@ -362,7 +375,7 @@ iframe {
   header {
     height: 80vh; }
     header #bienvenida {
-      margin-top: 10%; }
+      margin-top: 50%; }
 
   #seccion3 {
     background-size: cover;
@@ -371,7 +384,21 @@ iframe {
       margin-left: 10%;
       margin-top: 20%; }
 
-  #seccion4 .contenedor {
-    margin-left: 0; } }
+  #seccion4 {
+    height: 140vh; }
+    #seccion4 .contenedor {
+      margin-left: 0; }
+
+  #seccion6 {
+    height: 75vh; }
+    #seccion6 #texto {
+      margin-top: 50%;
+      font-size: 40px; }
+
+  #producto #lis {
+    margin-left: 40px; }
+
+  #seccion7, #seccion8, #seccion9 {
+    font-size: 15px; } }
 
 /*# sourceMappingURL=main.css.map */

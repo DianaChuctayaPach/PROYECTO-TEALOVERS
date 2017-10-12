@@ -63,6 +63,7 @@ iframe{
 }
 #seccion4{
     height: 47vh;
+    // padding: 5vh;
     .contenedor{
         margin-left: 150px;
     }
@@ -120,39 +121,51 @@ iframe{
 #seccion6{
     background-image: url(../img/disfruta.jpg);background-position:  bottom;
     height: 85vh;
-    background-size:cover;
+    background-size:cover;margin-top:-2px;
     #texto{
-        font-size: 8vw;
+        font-size: 6vw;
         font-weight: bold;
         color: white;
         margin: 15% 0 0 30%;
     }
 }
-$altura:80vh;
+$altura:91vh;
+$padding:10.5vh;
 #seccion7{
     height: $altura;
+    font-size: 20px;
     #div-color{
         background-color: #E2C36D;
-        height: $altura;
+        padding:$padding;
         img{ margin-top: 50px;}
+    }
+    #div-crema{
+        height:10vh; background-color: #E2C36D;
     }
 
 }
 #seccion8{
-    height: $altura;
+    height: $altura;font-size: 20px;
     #div-color{
-        background-color:#59C22F;
-        height: $altura;
-        img{margin-top: 50px;}
+        background-color: #59C22F;
+        padding:$padding;
+        img{ margin-top: 50px;}
+    }
+    #div-verde{
+        height:10vh; background-color: #59c22f;
     }
     
 }
 #seccion9{
+    font-size: 20px;
     height: $altura;
     #div-color{
-        background-color: #FF95A9;
-        height:$altura;
-        img{margin-top: 50px;}
+        background-color:  rgb(199, 98, 135);
+        padding:$padding;
+        img{ margin-top: 50px;}
+    }
+    #div-rosa{
+        height:10vh; background-color: rgb(199, 98, 135);
     }
 }
 #seccion10{
@@ -181,7 +194,11 @@ $altura:80vh;
 }
 #producto{
     // height: 90vh;
-    img{ height: 80vh; top: 10px; margin: 30px;}
+    img{ height: 80vh; 
+        top: 10px; 
+        width: 100%;
+        // margin: 10px;
+    }
     hr{
         background: black; 
         color: black;
@@ -206,7 +223,7 @@ $altura:80vh;
     header{
         height:80vh;
         #bienvenida{
-            margin-top: 10%;
+            margin-top: 50%;
         }
     }
     #seccion3{
@@ -217,8 +234,24 @@ $altura:80vh;
         }
     }
     #seccion4{
+        height: 140vh;
         .contenedor{
             margin-left: 0;
         }
+    }
+    #seccion6{
+        height: 75vh;
+        #texto{
+            margin-top: 50%;
+            font-size: 40px;
+        }
+    }
+    #producto{
+        #lis{
+            margin-left: 40px;
+        }
+    }
+    #seccion7,#seccion8,#seccion9{
+        font-size: 15px;
     }
 }
