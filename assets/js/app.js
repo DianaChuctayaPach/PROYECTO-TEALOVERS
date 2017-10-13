@@ -22,3 +22,13 @@ window.addEventListener(scroll,function(){
     }
     lastScrolltop=currentScroll;
 },false);
+
+
+$(document).ready(function() {
+    var scrollorama = $.scrollorama({ blocks:'.scrollblock' });
+
+    scrollorama.animate('#llama',{
+        duration:200, property:'opacity',end:2
+    })   
+     
+});
